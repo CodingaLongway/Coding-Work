@@ -1,3 +1,10 @@
 #include <iostream>
-
-int main() { std::cout << "Hello World!\n"; }
+using namespace std;
+int main() {
+  int first, middle, last;
+  first = 'K';
+  middle = 'D';
+  last = 'F';
+  cout << first << middle << last << endl;
+  return 0;
+}
